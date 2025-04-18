@@ -1,6 +1,20 @@
 <?php
-
-namespace App\Cache;
+/**
+ * ----------------------------------------------------------------------
+ * ----------------------------------------------------------------------
+ *
+ * @author   UxmanSarwar
+ * @github   https://github.com/uxmansarwar
+ * @linkedin https://www.linkedin.com/in/uxmansarwar
+ * @email    uxmansrwr@gmail.com
+ * @since    Uxman is full-stack(PHP, Laravel, Tailwind, JavaScript, VueJs, More...) developer since 2013
+ * @version  1.0.1
+ *
+ * ----------------------------------------------------------------------
+ * 
+ * ----------------------------------------------------------------------
+ */
+namespace UxmanSarwar;
 
 use Symfony\Component\Cache\Adapter\FilesystemAdapter;
 use Symfony\Contracts\Cache\ItemInterface;
@@ -37,7 +51,7 @@ use Symfony\Contracts\Cache\ItemInterface;
  * @version 1.0.0
  */
 
-class Cache
+final class Cache
 {
     /**
      * @var FilesystemAdapter|null The singleton cache store instance.
