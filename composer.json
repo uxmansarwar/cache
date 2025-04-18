@@ -1,0 +1,37 @@
+{
+    "name": "uxmansarwar/cache",
+    "description": "Laravel-like Cache Wrapper for Core PHP using Symfony Cache",
+    "type": "library",
+    "keywords": ["php", "cache", "laravel", "symfony", "wrapper", "core-php"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Uxman Sarwar",
+            "email": "uxmansrwr@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "symfony/cache": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "UxmanSarwar\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.34",
+        "phpstan/phpstan": "^1.10"
+    },
+    "scripts": {
+        "test": "pest",
+        "stan": "phpstan analyse"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
